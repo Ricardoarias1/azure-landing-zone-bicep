@@ -1,5 +1,18 @@
-# Object file
-*.o
+# Bicep compilet output
 
-# Ada Library Information
-*.ali
+*.json.bak
+
+# Azure Deployment state
+.azure/
+
+# VS Code
+.vscode/settings.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit these)
+*.env
+*.local
+secrets/
